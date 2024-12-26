@@ -1,0 +1,5 @@
+{
+    "require": {
+        "staticnur/hangman": "^1.3"
+    }
+}

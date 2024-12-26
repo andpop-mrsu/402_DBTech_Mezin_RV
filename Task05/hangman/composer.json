@@ -1,0 +1,33 @@
+{
+    "name": "staticnur/hangman",
+    "description": "Implementation of the game \"Hangman\"",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Staticnur\\Hangman\\": "src/"
+        },
+        "files": [
+            "src/Controller/GameController.php",
+            "src/View/GameView.php",
+            "src/Model/Game.php",
+            "src/Repository/Database.php",
+            "src/Service/GameService.php"
+        ]
+    },
+    "bin": [
+        "bin/hangman"
+    ],
+    "authors": [
+        {
+            "name": "StaticNur",
+            "email": "gsjxne@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "wp-cli/php-cli-tools": "^0.12.0",
+        "gabordemooij/redbean": "^5.7"
+    }
+}
